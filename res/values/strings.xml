@@ -13,5 +13,11 @@
     <string name="strRegister"><a href="vn.com.amdvietnam.rma://register/"><u>Đăng ký tài khoản</u></a></string>
     <string name="linkAMDVietNam"><a href="http://amdvietnam.com.vn/">AMDVietNam.com.vn</a></string>
     <string name="title_activity_register">RegisterActivity</string>
+    <string name="textRegister">Đăng ký tài khoản</string>
+    <string name="AccountType">Dạng tài khoản: </string>
+    <string name="Company">Công ty</string>
+    <string name="Invidual">Cá nhân</string>
+    <string name="Next">Tiếp tục</string>
+    <string name="RegisterTitle">Đăng ký tài khoản</string>
 
 </resources>

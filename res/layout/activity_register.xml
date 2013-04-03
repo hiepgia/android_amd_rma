@@ -3,15 +3,102 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/BackgroundApp"
+    tools:context=".RegisterActivity"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".RegisterActivity" >
+    android:paddingTop="@dimen/activity_vertical_margin" >
 
     <TextView
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/companyName"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:contentDescription="@string/line"
+        android:src="@drawable/line" />
+
+    <TextView
+        android:id="@+id/linkAMDVietNam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:text="@string/linkAMDVietNam"
+        android:textColor="#ffffff"
+        android:textColorLink="#ffffff" />
+
+    <TextView
+        android:id="@+id/AppNameLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:text="@string/RegisterTitle"
+        android:textColor="@color/font"
+        android:textSize="@dimen/FontSizeLogin" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/AppNameLogin"
+        android:layout_marginTop="16dp"
+        android:text="@string/AccountType"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp" >
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/Company"
+            android:textColor="@color/white" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/Invidual"
+            android:textColor="@color/white" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnLogin"
+        style="@style/AppBaseTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_below="@+id/radioGroupType"
+        android:layout_marginTop="78dp"
+        android:background="@drawable/login_button"
+        android:height="50dp"
+        android:text="@string/Next"
+        android:textColor="#ffffff"
+        android:textColorHint="@color/font" />
 
 </RelativeLayout>

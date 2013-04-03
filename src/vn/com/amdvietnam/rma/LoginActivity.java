@@ -11,7 +11,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class LoginActivity extends Activity {
-
+	public final static String LOGIN_MESSAGE = "vn.com.amdvietnam.rma.login";
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -39,7 +39,8 @@ public class LoginActivity extends Activity {
 			@Override
 			public void onClick(View v) {
 				// Open Register Activity
-				
+				Intent intent = new Intent(LoginActivity.this, RegisterActivity.class);
+				startActivity(intent);
 			}
 		});
         //End Switch to register activity
