@@ -46,15 +46,17 @@ public class LoginActivity extends Activity {
         //End Switch to register activity
         
         //Start Open Link AMDVietNam
-        final TextView uriAMDVietNam = (TextView) findViewById(R.id.linkAMDVietNam);
-        uriAMDVietNam.setOnClickListener(new View.OnClickListener() {
-			
-			@Override
-			public void onClick(View v) {
-				Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://amdvietnam.com.vn"));
-		        startActivity(browserIntent);	
-			}
-		});
+        if(findViewById(R.id.linkAMDVietNam) != null){
+	        final TextView uriAMDVietNam = (TextView) findViewById(R.id.linkAMDVietNam);
+	        uriAMDVietNam.setOnClickListener(new View.OnClickListener() {
+				
+				@Override
+				public void onClick(View v) {
+					Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://amdvietnam.com.vn"));
+			        startActivity(browserIntent);	
+				}
+			});
+        }
         //End Open Link AMDVietNam
 	}
 
