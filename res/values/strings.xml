@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AMD-RMA</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="AppNameLogin">Bảo hành điện tử</string>
+    <string name="Login_Username">Username</string>
+    <string name="Login_Password">Password</string>
+    <string name="login">Đăng nhập</string>
+    <string name="line">Line</string>
+    <string name="companyName">AMD Việt Nam</string>
+    <string name="strRegister"><a href="vn.com.amdvietnam.rma://register/"><u>Đăng ký tài khoản</u></a></string>
+    <string name="linkAMDVietNam"><a href="http://amdvietnam.com.vn/">AMDVietNam.com.vn</a></string>
+    <string name="title_activity_register">RegisterActivity</string>
+
+</resources>

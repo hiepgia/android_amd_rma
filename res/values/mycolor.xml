@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="BackgroundApp">#333333</color>
+<color name="green">#00ff00</color>
+<color name="font">#33b5e5</color>
+<color name="blue1">#33b5e5</color>
+<color name="blue2">#3376e5</color>
+<color name="grey05">#1c5c74</color>
+<color name="orange4">#dddf1c</color>
+<color name="orange5">#bcbe0e</color>
+</resources>
